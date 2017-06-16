@@ -1,0 +1,19 @@
+One component per file.
+Avoid Naming Collisions. Use unique naming conventions with separators for sub-modules.
+Declare modules without variable. Use module getter and setter syntax.
+Use named functions instead of passing ananomous functions.
+Use controller as syntax.
+Bindable members should be on the top, All functions should be at bottom.
+Move controller logic to service.
+Don't return anything from service.
+Use services to centralize logic. Use factory to share data.
+Use $inject property instead passing array directly.
+Never use dom(element) selectors, directly,using jquery or any other library.
+provide unique directive prefix.
+Test file names should have suffix of spec.
+Append controller name with Controller suffix.
+Append factory and service names with Service suffix.
+Avoid using $on, $watch, $emmit, $rootScope, $scope.
+Avoid timeout and intervals. Use $timeout and $intervals only if necessary.
+Create an Angular Constant for vendor libraries' global variables.
+Use AngularUI router for routing instead default router.
