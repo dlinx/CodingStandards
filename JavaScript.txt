@@ -1,0 +1,19 @@
+Always use strict mode.
+Filename may include underscore or dashes, Using capital case is not suggested.
+Code must be properly indented with spaces and tabs, wherever required.
+Only one statement per line.
+Every statement must be terminated with semicolon.
+JavaScript has colomn limit of 80 characters.
+Don't use Array Constructor.
+Define Enums for constants.
+Avoid use of JavaScript Getters and Setters.
+Use template litterals and template strings (Based on browser support).
+Don't declare variables in loops, if conditions.
+Avoid eval.
+Only use `this` in class constructors.
+Never use new on premetive object wrappers(Boolean, Number, String, Symbol).
+Local variable names must start with underscore.
+Class names and Enum Names are written in UpperCamelCase.
+Individual items in enum are named in CONSTANT_CASE.
+Small functions. Not more than 75 lines of code.
+Wrap Individual code in IIFE. Use semicolon before and after IIFE.
